@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Jaini&family=Kalam:wght@300;400;700&family=Macondo&family=Marck+Script&family=Merriweather&family=Nanum+Pen+Script&family=Reenie+Beanie&family=Satisfy&family=Zeyada&display=swap');
+/*
+.marck-script-regular {
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.nanum-pen-script-regular {
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.reenie-beanie-regular {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.macondo-regular {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.courgette-regular {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.kalam-light {
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zeyada-regular {
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.jaini-regular {
+  font-family: "Jaini", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+
+
+
+body {
+  font-family: "Merriweather", serif !important;
+  background-color: wheat !important;
+  margin: 0px;
+  padding: 0;
+  text-decoration: none !important;
+}
+
+.logo{
+  background: linear-gradient(to right, rgb(50, 58, 80),#00134cff , rgb(50, 58, 80));
+}
+
+.cuervos-del-alba{
+  background: none;
+}
+.navbar-bg {
+  background: linear-gradient(to right, #00134cff, rgb(50, 58, 80), #00134cff);
+  
+  transition: background-color 0.3s, color 0.3s;
+  padding: 10px 0;
+}
+.navbar-brand-text {
+  font-size: 24px;
+  color: #4caf50;
+  font-weight: bold;
+}
+.brand-link {
+  text-decoration: none;
+  color: white;
+}
+.brand-link img{
+  height: 70px;
+  color: wheat;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: wheat;
+}
+.nav-link:hover {
+  color: wheat;
+}
+
+.nav-link img {
+  height: 50px;
+  
+}
+.nav-link img.cuervo{
+  width: 60px;
+}
+
+.nav-link img.yunke{
+  max-width: 45px;
+}
+.nav-link
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/*Galería*/
+
+.img-container {
+  display: flex;
+  height: 600px;
+  width: 100%;
+}
+.img-container img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit:cover;
+  opacity: .8;
+  transition: width 0.5s ease;
+}
+
+.img-container img:hover {
+  width: 30%;
+  opacity: 1;
+  filter: contrast(120%);
+ }
