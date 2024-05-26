@@ -72,7 +72,7 @@
 */
 
 
-
+/*Todo*/
 
 body {
   font-family: "Merriweather", serif !important;
@@ -81,13 +81,30 @@ body {
   padding: 0;
   text-decoration: none !important;
 }
+p {
+  text-indent: 30px;
+  font-size: 20px;
+  }
 
+/*Barra de navegación*/
 .logo{
   background: linear-gradient(to right, rgb(50, 58, 80),#00134cff , rgb(50, 58, 80));
 }
 
+h1{
+  font-size: 30px !important;
+  
+}
 .cuervos-del-alba{
   background: none;
+}
+
+.navbar-toggler {
+  border: var(--bs-border-width) solid #ffc107;
+}
+.navbar-toggler-icon{
+  background-color: #ffbf00ff;
+  border-radius: 20%;
 }
 .navbar-bg {
   background: linear-gradient(to right, #00134cff, rgb(50, 58, 80), #00134cff);
@@ -96,13 +113,11 @@ body {
   padding: 10px 0;
 }
 .navbar-brand-text {
-  font-size: 24px;
-  color: #4caf50;
   font-weight: bold;
 }
 .brand-link {
   text-decoration: none;
-  color: white;
+  color: wheat;
 }
 .brand-link img{
   height: 70px;
@@ -129,13 +144,27 @@ body {
 .nav-link img.yunke{
   max-width: 45px;
 }
-.nav-link
+
 .nav-link {
   font-size: 16px;
   font-weight: bold;
   margin-right: 10px;
 }
 
+/*Cabeceros*/
+
+h2{
+  font-family: "Jaini", system-ui !important;
+  font-size: 60px !important;
+  margin-top: 50px !important;
+  margin-bottom: 30px !important;
+}
+h3{
+  font-family: "Jaini", system-ui !important;
+  font-size: 40px !important;
+  
+  margin-bottom: 40px !important;
+}
 /*Galería*/
 
 .img-container {

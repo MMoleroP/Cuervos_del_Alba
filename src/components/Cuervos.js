@@ -4,8 +4,8 @@ function Cuervos() {
     return (
       <div className="">
       <div class="contenido">
-            <h1 className="text-center">Sobre Vignar</h1>
-            <h2 className="ms-auto">Introducción</h2>
+            <h2 className="text-center">Sobre Vignar</h2>
+            <h3 className="ms-auto">Introducción</h3>
         <p>En el albor de los tiempos, cuando el mundo apenas había comenzado a existir y la oscuridad amenazó con
           devorarlo todo, de entre las sombras nació la encarnación del equilibrio entre la vida y la muerte.<br/>
           Surgió Vignar, el Gran Dios Cuervo.<br/> Él decide a quién se le da paso en la vida y a quién le ha
@@ -20,7 +20,7 @@ function Cuervos() {
           último amanecer.
         </p>
       </div>
-      <h2 className="ms-auto">Escritos</h2>
+      <h3 className="ms-auto">Escritos</h3>
       <div class="escritos">
         <p>Aquí mostramos una recopilación de los escritos sobre Vignar.<br/> Una colección de profecías
           sobre sus más devotos aliados. Algunos están escritos por el puño y letra del Gran Dios,<br/> otros han sido 
