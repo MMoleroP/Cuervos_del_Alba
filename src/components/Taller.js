@@ -22,7 +22,7 @@ function Taller() {
       <p className="listados">- Armas de asedio<br/>
         - Un nuevo armero, para sumarlo al anterior<br/>
         - Atrezzo para el evento de Unión<br/>
-        - Atrezo para el evento de Fuel Wars<br/>
+        - Atrezzo para el evento de Fuel Wars<br/>
         - Muchas más cosas. No os vamos a desvelar todo antes de tiempo...
       </p>
 
