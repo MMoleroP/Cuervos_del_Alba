@@ -4,7 +4,7 @@ function Galeria() {
         <h2 className="text-center">Galería de fotos</h2>
             
         
-        <p class="img-intro">Para que os vayan sonando nuestras caras, aquí hay una selección de fotos de algunos de los eventos a los que hemos enviado a nuestras fuerzas</p>
+        <p class="img-intro">Para que os vayan sonando nuestras caras, aquí hay una selección de fotos de algunos de los eventos a los que hemos enviado a nuestras fuerzas:</p>
 
         
 
@@ -20,9 +20,9 @@ function Galeria() {
                   <img src="./Recursos/Reinos IX 2024/8.jpg"/>
                   <img src="./Recursos/Reinos IX 2024/9.jpg"/>
               </div>
-              </h3>
+            </h3>
           
-              <h3 className="img-evento ms-auto">Omnia. Tierras de Sangre 
+            <h3 className="img-evento ms-auto">Omnia. Tierras de Sangre 
               <div class="img-container">
                   <img src="./Recursos/Omnia noviembre/1.jpeg"/>
                   <img src="./Recursos/Omnia noviembre/2.jpeg"/>
@@ -122,7 +122,7 @@ function Galeria() {
                   <img src="./Recursos/Unión 2022/9.jpg"/>
               </div>
           </h3>
-       
+
       </>
     );
 }
