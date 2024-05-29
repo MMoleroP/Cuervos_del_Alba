@@ -19,7 +19,7 @@ function Enlaces() {
       <p>Para estar al tanto de los eventos en general que se celebran en nuestro país, te recomendamos esta página: </p>
       <p className="listados">
         -<a href="https://www.calendariolarp.com/">CalendarioLARP</a></p>
-      <p className="text-end firma-cuervos ">- Te agradecemos el tiempo que has pasado con nostros.<br /> No olvides seguirnos en nuestro Instagram y recuerda:<br /> Vignar te estará vigilando... y nosotros también.<br /> ¡Feliz roleo!</p>
+      <p className="text-end firma-cuervos ">- Te agradecemos el tiempo que has pasado con nosotros.<br /> No olvides seguirnos en nuestro Instagram y recuerda:<br /> Vignar te estará vigilando... y nosotros también.<br /> ¡Feliz roleo!</p>
 
     </>
   );
