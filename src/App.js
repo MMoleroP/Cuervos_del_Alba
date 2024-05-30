@@ -37,7 +37,7 @@ function App() {
                         <Navbar.Collapse id="nav nav-pills flex-column flex-sm-row">
                             <Nav className="me-auto  ">
                                 <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/" className="flex-sm-fill nav-link active ms-5" style= {{color:"wheat" }}>
-                                <img src="./Recursos/castillo.svg"/> Sobre nosotros
+                                <img src="./Recursos/castillo.svg"/> Inicio
                                 </Nav.Link>
                                 <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/sobre-vignar" className="flex-sm-fill nav-link active ms-5" style= {{color:"wheat" }}>
                                 <img className="cuervo" src="./Recursos/logo cuervos vector.svg"/> Sobre Vignar

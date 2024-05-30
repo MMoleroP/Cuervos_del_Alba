@@ -10,8 +10,8 @@ function Cuervos() {
             <h2 className="text-center">Sobre Vignar</h2>
             <h3 className="ms-auto">Introducción</h3>
             <p>En el albor de los tiempos, cuando el mundo apenas había comenzado a existir y la oscuridad amenazó con
-                devorarlo todo, de entre las sombras nació la encarnación del equilibrio entre la vida y la muerte.<br />
-                Surgió Vignar, el Gran Dios Cuervo.</p> 
+                devorarlo todo, de entre las sombras nació la encarnación del equilibrio entre la vida y la muerte.</p>
+                <p>Surgió Vignar, el Gran Dios Cuervo.</p> 
                 <p>Él decide a quién se le da paso en la vida y a quién le ha
                 llegado el momento de su muerte. Es una bendición y una advertencia para los que caminamos por este
                 mundo</p> 
@@ -88,7 +88,7 @@ function Cuervos() {
                 </Col> 
 
                 <Col className='d-flex justify-content-evenly'>   
-                    <Card className='cantares5' variant="none" style={{ width: '26rem' }}>
+                    <Card className='cantares1' variant="none" style={{ width: '26rem' }}>
                         <Card.Body>
                             <Card.Title className="nombre-cantar mb-4 text-center ">Cantar 6. La Tormenta</Card.Title>
                             <Card.Text className='cantar'>Así como el río tiene su cauce,<br /> y así como el árbol tiene sus
@@ -157,7 +157,7 @@ function Cuervos() {
                 </Col>
 
                 <Col className='d-flex justify-content-evenly'>
-                    <Card className='cantares5' variant="none" style={{ width: '26rem' }}>
+                    <Card className='cantares4' variant="none" style={{ width: '26rem' }}>
                         <Card.Body>
                             <Card.Title className="nombre-cantar mb-4 text-center "> Cantar 12. justicia</Card.Title>
                             <Card.Text className='cantar'>Quienes temen la verdad<br/> de la muerte, no alcanzan a ver en su error,<br/>

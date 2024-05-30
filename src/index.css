@@ -25,7 +25,7 @@ p {
 
 /*Barra de navegación*/
 .logo{
-  background: linear-gradient(to right, rgb(50, 58, 80),#00134cff , rgb(50, 58, 80));
+  background: linear-gradient(to right, #323a50,#00134c , #323a50);
 }
 
 h1{
@@ -36,15 +36,12 @@ h1{
   background: none;
 }
 
-.navbar-toggler {
-  border: var(--bs-border-width) solid #ffc107;
-}
 .navbar-toggler-icon{
-  background-color: #ffbf00ff;
+  background-color: #ffbf00;
   border-radius: 20%;
 }
 .navbar-bg {
-  background: linear-gradient(to right, #00134cff, rgb(50, 58, 80), #00134cff);
+  background: linear-gradient(to right, #00134c, #323a50, #00134c);
   
   transition: background-color 0.3s, color 0.3s;
   padding: 10px 0;
@@ -54,20 +51,17 @@ h1{
 }
 .brand-link {
   text-decoration: none;
-  color: #fff8dc;
+
 }
 .brand-link img{
   height: 70px;
-  color: #fff8dc;
+
 }
 .nav-link {
   font-size: 16px;
   font-weight: bold;
   margin-right: 10px;
-  color: #fff8dc;
-}
-.nav-link:hover {
-  color: #fff8dc;
+
 }
 
 .nav-link img {
@@ -247,7 +241,7 @@ Escritos*/
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: .875em;
-  color: rgba(177, 137, 91 )!important;
+  
 }
 
 a {
@@ -295,7 +289,7 @@ a {
   height: 70px;
   width: 100%;
   color: rgba(177, 137, 91);
-  background: linear-gradient(to right, rgb(50, 58, 80),#00134cff , rgb(50, 58, 80));
+  background: linear-gradient(to right, #323a50,#00134c , #323a50);
   padding-top: 10px;
   margin-top: 50px;
   align-content: baseline;
