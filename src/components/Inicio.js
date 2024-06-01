@@ -1,7 +1,7 @@
 function Inicio() {
     return (
       <>
-        <div class="bienvenida">
+        <div className="bienvenida">
           <h2 className="texto1 text-center">Bienvenidos</h2>
             <h3 className="texto2 text-center">Hijos de Vignar</h3>
             <p>Bienvenidos a la página oficial de Cuervos del Alba.</p>
