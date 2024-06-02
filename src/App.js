@@ -25,7 +25,7 @@ function App() {
                 <Router>
                     <header className="logo">
                         <Navbar.Brand className="mt-4">
-                            <h1 className="navbar-brand-text  text-center cuervos-del-alba" style={{ color: "wheat" }}>
+                            <h1 className="navbar-brand-text  text-center cuervos-del-alba" >
                                 <Link to="/" className="brand-link ">
                                     <img src="./Recursos/logo cuervos vector moneda.svg" alt=""/> Cuervos del Alba
                                 </Link>
@@ -35,24 +35,24 @@ function App() {
                             <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="nav nav-pills flex-column flex-sm-row">
                                 <Nav className="me-auto  ">
-                                    <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/" className="flex-sm-fill nav-link active ms-5" style={{ color: "wheat" }}>
+                                    <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/" className="flex-sm-fill nav-link active ms-5" >
                                         <img src="./Recursos/castillo.svg" alt=""/> Inicio
                                     </Nav.Link>
-                                    <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/sobre-vignar" className="flex-sm-fill nav-link active ms-5" style={{ color: "wheat" }}>
+                                    <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/sobre-vignar" className="flex-sm-fill nav-link active ms-5" >
                                         <img className="cuervo" src="./Recursos/logo cuervos vector.svg" alt=""/> Sobre Vignar
                                     </Nav.Link>
-                                    <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/eventos" className="flex-sm-fill nav-link active ms-5" style={{ color: "wheat" }}>
+                                    <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/eventos" className="flex-sm-fill nav-link active ms-5" >
                                         <img src="./Recursos/tablon.svg" alt="" /> Eventos
                                     </Nav.Link>
                                 </Nav>
                                 <Nav className="ms-auto">
-                                    <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/galeria" className="flex-sm-fill nav-link active ms-5" style={{ color: "wheat" }}>
+                                    <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/galeria" className="flex-sm-fill nav-link active ms-5" >
                                         <img src="./Recursos/caballete.svg" alt="" /> Galería
                                     </Nav.Link>
-                                    <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/taller" className="flex-sm-fill nav-link active ms-5" style={{ color: "wheat" }}>
+                                    <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/taller" className="flex-sm-fill nav-link active ms-5" >
                                         <img className="yunke" src="./Recursos/yunke.svg"  alt=""/> Taller
                                     </Nav.Link>
-                                    <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/enlaces-de-interes" className="flex-sm-fill nav-link active ms-5 me-5" style={{ color: "wheat" }}>
+                                    <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/enlaces-de-interes" className="flex-sm-fill nav-link active ms-5 me-5" >
                                         <img src="./Recursos/flechas.svg" alt=""/> Enlaces de interés
                                     </Nav.Link>
                                 </Nav>
